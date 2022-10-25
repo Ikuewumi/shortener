@@ -4,7 +4,7 @@ import express, { Request, Response, NextFunction } from "express"
 import router from "./api";
 import { connectDb } from "./config/db";
 import { useLogger } from "./config";
-import path from "node:path";
+import path from "path";
 
 
 const app = express();
