@@ -1,0 +1,17 @@
+{
+   "name": "types",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "types": "index.d.ts",
+   "scripts": {
+      "build": "tsc index.ts -d",
+      "dev": "tsc index.ts -d -w"
+   },
+   "devDependencies": {
+      "typescript": "../node_modules/typescript"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC"
+}
